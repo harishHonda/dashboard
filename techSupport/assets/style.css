@@ -1,0 +1,136 @@
+/* Body */
+body{
+    height: 100dvh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding-bottom: 100px;
+}
+
+/* Custom CSS for hero section */
+.hero-section {
+    background-color: #000000; /* Light grey background */
+    background: url("images/bg1.webp");
+    opacity: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    text-align: center; /* Center align text */
+    position: relative;
+    .blurBg{
+        background:#00000038;
+        backdrop-filter: blur(5px);
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        display: flex;
+        align-items: center;
+    }
+}
+
+.hero-section h1 {
+    font-size: 3rem; /* Large font size */
+    margin-bottom: 20px; /* Bottom margin */
+    color:#f8f9fa; 
+}
+
+/* Custom CSS for responsive table */
+.table-container {
+    overflow-x: auto; /* Enable horizontal scroll */
+}
+
+.table {
+    width: 100%; /* Table width 100% */
+    white-space: nowrap; /* Prevent line breaks */
+}
+
+/* Button */
+button{
+    background:black;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+}
+
+/* Hide Scrollbar */
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* Date Filter */
+#dateFilter{
+    width: 50%;
+    max-width: 250px;
+    border-radius: 0 5px 0 0;
+    border-left: 0;
+    border-bottom: 0;
+}
+
+/* Data Table */
+table{
+    white-space: wrap!important;
+    td{
+        height: auto;
+        max-width: 300px;
+        word-wrap: break-word;
+        overflow-wrap: break-word; 
+        background: red;
+    }
+}
+
+
+/* Resolved Form */
+#resolvedForm{
+    display: block;
+    opacity: 0;
+    height: 20%;
+    width: 20%;
+    position: fixed;
+    bottom: -30%;
+    right: 5%;
+    z-index: 99;
+    background: #00000020;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #ffffff;
+    backdrop-filter: blur(10px);
+    transition: all .2s ease-in-out;
+    #resolvedId{
+        width: 100%;
+        background: rgb(0, 0, 0);
+        border-radius: 5px;
+        border: none;
+        margin-bottom: 10px;
+        height: 40px;
+        color: #fff;
+        padding: 0 10px;
+        text-align: center;
+    }
+    button{
+        padding: .3rem 1rem;
+        margin-right: .5rem;
+    }   
+}
+
+
+/* Load More  */
+.loadMore{
+    text-align: center;
+    margin: 50px 0;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+/* Responsive */
+@media screen and (max-width:600px){
+    #resolvedForm{
+        width: 90%;
+        left: 5%;
+    }
+}
