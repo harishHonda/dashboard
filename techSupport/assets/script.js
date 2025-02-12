@@ -1,4 +1,4 @@
-const apiKey = 'AIzaSyCSGiKE6twRskn2k35zWiOmCxHKuY-xkdA; // Replace with your actual API key
+const apiKey = 'AIzaSyCSGiKE6twRskn2k35zWiOmCxHKuY-xkdA'; // Replace with your actual API key
 const spreadsheetId = '1hnv1gNZNvL3l31Jz2hGDc2uEnogcd5WkHWOB1e4Cz4w'; // Replace with your actual spreadsheet ID
 const range = 'techSupport!A1:I'; // Specify the range of cells you want to fetch, adjust H as per your sheet's columns
 
