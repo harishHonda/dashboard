@@ -98,7 +98,7 @@ document.querySelector(".loadMore").addEventListener("click", function(){
 
 
 // Count Pending
-const url = 'https://sheets.googleapis.com/v4/spreadsheets/1hnv1gNZNvL3l31Jz2hGDc2uEnogcd5WkHWOB1e4Cz4w/values/techSupport!H3:H?key=AIzaSyAosAehTaSmL8uCDsOVCGeB32M2LJTsCwE';
+const url = 'https://sheets.googleapis.com/v4/spreadsheets/1hnv1gNZNvL3l31Jz2hGDc2uEnogcd5WkHWOB1e4Cz4w/values/techSupport!H3:H?key=AIzaSyCSGiKE6twRskn2k35zWiOmCxHKuY-xkdA';
 // Make an HTTP GET request to the Google Sheets API
 function updatePending(){
     fetch(url)
